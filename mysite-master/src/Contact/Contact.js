@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import Contact from '../Home/Contact';
+import Footer from '../Home/Footer';
 
-class Contact extends Component {
+class ContactForm extends Component {
   render() {
     return (
         <div>
-          <h2>Contact</h2>
+          <Contact />
+          <Footer />
         </div>
     );
   }
 }
 
-export default Contact;
+export default ContactForm;

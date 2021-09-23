@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap';
+import About from './About';
+import Summary from './Summary';
+import Project from './Project';
+import Contact from './Contact';
+import Footer from './Footer';
 import './style.css';
 
 class Home extends Component {
   render() {
     return (
-      <div className="main">
+      <>
+         <div className="main">
         <div className="container-fluid">
-          <div className="row1">
+          <div className="row">
             <div className="entry-banner text-center">
               <h1 id="hello">Hello, I'm</h1>
               <h1 id="name">Meysam</h1>
@@ -25,8 +29,20 @@ class Home extends Component {
               </div>
             </div>
           </div>
+                           
+
         </div>
       </div>
+      
+        <About />
+        <Summary />
+        <Project />
+        <Contact />
+        <Footer />
+       
+      
+      </>
+     
     );
   }
 }

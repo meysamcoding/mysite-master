@@ -28,13 +28,14 @@ function Router1() {
 					  </div>
           </div>
         </nav>
+        </div>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/contact' component={Contact} />
           <Route path='/portfolio' component={Portfolio} />
         </Switch>
       
-    </div>
+    
   </Router >
   );
 }

@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Project from '../Home/Project';
+import Footer from '../Home/Footer';
 
 class Portfolio extends Component {
   render() {
     return (
         <div>
-          <h2>Portfolio</h2>
+            <Project />
+            <Footer />
         </div>
     );
   }
