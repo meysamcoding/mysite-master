@@ -25,7 +25,7 @@
     font-size: 28pt;
   }
   #name {
-    font-size: 100pt;
+    font-size: 20vw;
   }
   #person-description {
     font-size: 33pt;
@@ -344,4 +344,18 @@ textarea {
 .h41 {
   text-align: right;
   
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contact {
+padding: 0px; 
+ }
+ .main{
+   padding: 30.7% 0;
+ }
+ .row {
+   display: contents;
+ }
+
 }
